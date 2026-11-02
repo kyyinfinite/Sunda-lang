@@ -1,0 +1,25 @@
+pagawean tambah(a, b) {
+    balikeun a + b
+}
+pagawean fib(n) {
+    lamun n < 2 { balikeun n }
+    balikeun fib(n - 1) + fib(n - 2)
+}
+pagawean salam(ngaran, sapaan = "Halo") {
+    balikeun sapaan + ", " + ngaran
+}
+pagawean jumlahkeun(... angka) {
+    total = 0
+    pikeun a dina angka { total = total + a }
+    balikeun total
+}
+pagawean kaluaran() {
+    balikeun
+}
+cetak(tambah(2, 3))
+cetak(fib(10))
+cetak(salam("Asep"))
+cetak(salam("Asep", "Wilujeng"))
+cetak(jumlahkeun(1, 2, 3, 4))
+cetak(kaluaran())
+cetak(jenis(kaluaran()))

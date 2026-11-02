@@ -1,0 +1,4 @@
+pagawean ulang(n) {
+    balikeun ulang(n + 1)
+}
+ulang(0)

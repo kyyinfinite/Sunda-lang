@@ -1,0 +1,10 @@
+d = []
+pikeun i dina rentang(20000) {
+    d.tambah(i % 100)
+}
+d.urutkeun()
+jumlah = 0
+pikeun x dina d {
+    jumlah += x
+}
+cetak(jumlah)

@@ -1,0 +1,8 @@
+cetak("Sampurasun")
+cetak("Sam" + "pu" + "rasun")
+cetak("baris\\hiji")
+cetak("kutip \"dina\" kecap")
+nami = "Asep"
+cetak("Halo", nami)
+cetak(panjang("kecap"))
+cetak(panjang("Sunda é"))

@@ -1,0 +1,13 @@
+pagawean dobel(x) {
+    balikeun x * 2
+}
+
+pagawean sambut(ngaran) {
+    balikeun "Halo, " + ngaran + "!"
+}
+
+koefisien = 100
+
+pagawean rahasia() {
+    balikeun "tersembunyi"
+}

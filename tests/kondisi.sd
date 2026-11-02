@@ -1,0 +1,37 @@
+x = 5
+lamun x > 3 {
+    cetak("gede")
+} lamunteu {
+    cetak("leutik")
+}
+lamun x > 10 {
+    cetak("sapuluh")
+} lamunteu lamun x > 4 {
+    cetak("lima")
+} lamunteu {
+    cetak("sejen")
+}
+lamun x == 5 jeung lain (x == 6) {
+    cetak("lima jeung lain genep")
+}
+lamun x < 0 atawa x > 100 {
+    cetak("luar")
+} lamunteu {
+    cetak("jero")
+}
+lamun 0 {
+    cetak("nol bener")
+}
+lamun "" {
+    cetak("kosong bener")
+}
+lamun kosong {
+    cetak("moal tampil")
+}
+lamun x == 1 { cetak("hiji") } lamunteu { cetak("lain hiji") }
+lamun x == 5 {
+    cetak("baris")
+}
+lamunteu {
+    cetak("moal")
+}

@@ -1,0 +1,4 @@
+pagawean tambah(a, b) {
+    balikeun a + b
+}
+cetak(tambah(1))

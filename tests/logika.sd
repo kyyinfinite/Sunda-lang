@@ -1,0 +1,5 @@
+cetak(bener, salah, kosong)
+cetak(1 == 1, 1 != 1, 1 < 2, 2 <= 2, 3 > 4, 3 >= 3)
+cetak("a" == "a", "a" == "b", 1 == "1", kosong == kosong)
+cetak(lain bener, lain salah, lain kosong, lain 0, lain "")
+cetak(lain 1 == 2)

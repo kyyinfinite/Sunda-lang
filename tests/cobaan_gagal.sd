@@ -1,0 +1,48 @@
+cobaan {
+    cetak(1 / 0)
+} gagal (e) {
+    cetak("kaladat:", e)
+}
+cetak("terus ngajalankeun")
+
+cobaan {
+    gagal "pesen lengkah"
+} gagal (kasalahan) {
+    cetak("ditangkap:", kasalahan)
+}
+
+pagawean balikkeunGalat() {
+    gagal "tina pagawean"
+}
+cobaan {
+    balikkeunGalat()
+} gagal (e) {
+    cetak("tina pagawean:", e)
+}
+
+pagawean lapisDalam() {
+    gagal "dalam"
+}
+pagawean lapisLuar() {
+    lapisDalam()
+    cetak("moal nepi")
+}
+cobaan {
+    lapisLuar()
+} gagal (e) {
+    cetak("naliwat frame:", e)
+}
+
+cobaan {
+    cobaan {
+        gagal "jero"
+    } gagal (e) {
+        gagal "diulang: " + e
+    }
+} gagal (e) {
+    cetak("ulang:", e)
+}
+
+cetak("ayeuna galat teu ditangkap")
+gagal "resep"
+cetak("moal tampil")

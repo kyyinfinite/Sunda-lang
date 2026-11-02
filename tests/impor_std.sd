@@ -1,0 +1,7 @@
+impor matematika
+cetak(matematika.akar(144))
+cetak(matematika.lantai(3.7), matematika.langit(3.2))
+cetak(matematika.absolute(-5), matematika.bulat(2.5))
+cetak(matematika.minimal(3, 7), matematika.maksimal(3, 7))
+cetak(matematika.pi > 3, matematika.e > 2)
+cetak(matematika.sin(0), matematika.cos(0))

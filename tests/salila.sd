@@ -1,0 +1,44 @@
+i = 0
+total = 0
+salila i < 10 {
+    i += 1
+    lamun i % 2 == 0 {
+        teruskeun
+    }
+    lamun i > 7 {
+        eureun
+    }
+    total += i
+}
+cetak(i, total)
+n = 0
+salila n < 3 {
+    k = n * 10
+    j = 0
+    salila j < 3 {
+        lamun j == 1 {
+            j += 1
+            teruskeun
+        }
+        cetak(k + j)
+        j += 1
+    }
+    n += 1
+}
+salila bener {
+    a = 1
+    b = 2
+    lamun a + b == 3 {
+        c = 3
+        eureun
+    }
+}
+cetak("kaluar")
+{
+    dasar = 100
+    salila bener {
+        t = 5
+        eureun
+    }
+    cetak(dasar)
+}

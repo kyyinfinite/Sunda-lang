@@ -1,0 +1,13 @@
+siswa = {"ngaran": "Asep", "umur": 18}
+cetak(siswa["ngaran"], siswa["umur"])
+siswa["kelas"] = "12A"
+cetak(siswa)
+cetak(panjang(siswa))
+cetak(siswa.konci())
+cetak(siswa.nilai())
+cetak(siswa.ngandung("umur"), siswa.ngandung("hobi"))
+cetak(siswa.cabut("umur"))
+cetak(siswa.ngandung("umur"))
+cetak(siswa["teu_aya"])
+cetak({}.ngandung("x"))
+cetak({"a": 1}.tiron())

@@ -1,0 +1,43 @@
+pagawean buatSampah(n) {
+    pikeun i dina rentang(n) {
+        s = "kecap" + kecap(i)
+        d = {"a": i, "b": [i, i + 1]}
+        h = {i, i * 2}
+        t = (i, s)
+    }
+    balikeun bener
+}
+buatSampah(300)
+
+pagawean buatCounter() {
+    hitungan = 0
+    pagawean naik() {
+        hitungan = hitungan + 1
+        balikeun hitungan
+    }
+    balikeun naik
+}
+pilihan = []
+pikeun i dina rentang(50) {
+    pilihan.tambah(buatCounter())
+}
+pikeun c dina pilihan { c() }
+cetak(pilihan[0](), pilihan[25](), pilihan[49]())
+
+kelas Simpenan {
+    pagawean awal(nilai) {
+        ieu.isi = [nilai, nilai * 2]
+    }
+    pagawean total() {
+        jumlah = 0
+        pikeun x dina ieu.isi { jumlah = jumlah + x }
+        balikeun jumlah
+    }
+}
+tumpukan = []
+pikeun i dina rentang(100) {
+    tumpukan.tambah(Simpenan(i))
+}
+hasil = 0
+pikeun s dina tumpukan { hasil = hasil + s.total() }
+cetak(hasil)

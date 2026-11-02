@@ -1,0 +1,37 @@
+kelas Hewanan {
+    pagawean awal(ngaran, sora) {
+        ieu.ngaran = ngaran
+        ieu.sora = sora
+    }
+    pagawean ngomong() {
+        balikeun ieu.ngaran + " nyarita: " + ieu.sora
+    }
+}
+
+kelas Ucing turunan Hewanan {
+    pagawean awal(ngaran) {
+        induk.awal(ngaran, "meong")
+    }
+    pagawean ngomong() {
+        balikeun induk.ngomong() + " (ucing)"
+    }
+}
+
+h = Hewanan("Kuda", "hnnn")
+cetak(h.ngomong())
+cetak(h.ngaran)
+u = Ucing("Cemong")
+cetak(u.ngomong())
+
+cetak(jenis(u))
+cetak(jenis(Ucing))
+
+kelas Polos {
+    pagawean awal() {
+        ieu.nilai = 1
+    }
+}
+p = Polos()
+p.nilai += 41
+cetak(p.nilai)
+cetak(jenis(p))

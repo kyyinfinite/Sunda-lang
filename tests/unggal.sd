@@ -1,0 +1,31 @@
+pikeun c dina "sunda" {
+    cetak(c)
+}
+jumlah = 0
+pikeun huruf dina "ábc" {
+    jumlah += 1
+}
+cetak(jumlah)
+pikeun c dina "abcdef" {
+    lamun c == "b" {
+        teruskeun
+    }
+    lamun c == "e" {
+        eureun
+    }
+    cetak(c)
+}
+pikeun x dina "xy" {
+    pikeun y dina "12" {
+        cetak(x + y)
+    }
+}
+{
+    awalan = "p"
+    pikeun c dina "ab" {
+        sambung = awalan + c
+        cetak(sambung)
+    }
+    cetak(awalan)
+}
+cetak("beres")

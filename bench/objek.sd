@@ -1,0 +1,15 @@
+kelas Titik {
+    pagawean awal(x, y) {
+        ieu.x = x
+        ieu.y = y
+    }
+    pagawean jumlah() {
+        balikeun ieu.x + ieu.y
+    }
+}
+total = 0
+pikeun i dina rentang(20000) {
+    t = Titik(i, i)
+    total += t.jumlah()
+}
+cetak(total)

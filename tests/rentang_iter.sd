@@ -1,0 +1,12 @@
+pikeun i dina rentang(3) { cetak(i) }
+pikeun i dina rentang(2, 5) { cetak(i) }
+pikeun i dina rentang(10, 0, -3) { cetak(i) }
+jumlah = 0
+pikeun x dina [10, 20, 30] { jumlah += x }
+cetak(jumlah)
+pikeun huruf dina "abc" { cetak(huruf) }
+d = {"a": 1, "b": 2}
+pikeun k dina d { cetak(k, d[k]) }
+cetak(panjang(himpun("xy")))
+r = rentang(0, 10, 2)
+cetak(r, r[2], panjang(rentang(5)))

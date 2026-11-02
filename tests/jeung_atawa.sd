@@ -1,0 +1,7 @@
+cetak(1 jeung 2)
+cetak(salah jeung boom)
+cetak(kosong atawa "x")
+cetak(1 atawa boom)
+cetak(salah atawa salah)
+cetak(kosong jeung 1 atawa 2)
+cetak(lain salah jeung bener)

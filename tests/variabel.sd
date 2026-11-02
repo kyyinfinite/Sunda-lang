@@ -1,0 +1,14 @@
+a = 10
+b = 3
+a += b
+cetak(a)
+a -= 1
+a *= 2
+a /= 4
+cetak(a)
+x = y = 5
+cetak(x, y)
+a = "ayeuna"
+cetak(a)
+# komentar
+cetak(jenis(a), jenis(1), jenis(bener), jenis(kosong))

@@ -1,0 +1,12 @@
+h = {3, 1, 2, 3, 1}
+cetak(panjang(h))
+cetak(h.ngandung(2), h.ngandung(9))
+h.tambah(9)
+cetak(panjang(h))
+cetak(h.leupaskeun(9))
+cetak(panjang(h))
+t = (1, "dua", bener)
+cetak(t, t[0], t[1], t[2], panjang(t))
+cetak(t.ngandung("dua"), t.indeks(bener))
+cetak(())
+cetak((42,))

@@ -1,0 +1,28 @@
+a = 1
+{
+    a = 2
+    b = 10
+    cetak(a, b)
+}
+cetak(a)
+
+pagawean luar() {
+    x = "luar"
+    pagawean jero() {
+        cetak(x)
+        x = "diubah"
+        cetak(x)
+    }
+    jero()
+    cetak(x)
+}
+luar()
+
+penghitung = 0
+pagawean naikkeun() {
+    penghitung += 1
+    balikeun penghitung
+}
+naikkeun()
+naikkeun()
+cetak(penghitung)

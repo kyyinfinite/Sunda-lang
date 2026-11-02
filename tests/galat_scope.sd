@@ -1,0 +1,18 @@
+a = 1
+{
+    a = 2
+    b = 10
+    cetak(a, b)
+}
+cetak(a)
+lamun bener {
+    z = 5
+    lamun z == 5 {
+        z = 6
+        y = z * 2
+        cetak(y)
+    }
+    cetak(z)
+}
+cetak(b)
+cetak("moal")

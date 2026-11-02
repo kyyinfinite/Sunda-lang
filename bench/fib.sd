@@ -1,0 +1,5 @@
+pagawean fib(n) {
+    lamun n < 2 { balikeun n }
+    balikeun fib(n - 1) + fib(n - 2)
+}
+cetak(fib(22))

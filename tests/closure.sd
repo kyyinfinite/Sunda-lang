@@ -1,0 +1,31 @@
+pagawean buatCounter() {
+    hitungan = 0
+    pagawean naik() {
+        hitungan = hitungan + 1
+        balikeun hitungan
+    }
+    balikeun naik
+}
+a = buatCounter()
+b = buatCounter()
+cetak(a(), a(), a())
+cetak(b(), b())
+cetak(a())
+
+pagawean pengali(faktor) {
+    pagawean kali(x) {
+        balikeun x * faktor
+    }
+    balikeun kali
+}
+dua = pengali(2)
+tilu = pengali(3)
+cetak(dua(10), tilu(10))
+
+pagawean hitungKeun() {
+    pikeun i dina rentang(3) {
+        pagawean angka() { balikeun i }
+        lamun i == 1 { balikeun angka }
+    }
+}
+cetak(hitungKeun()())

@@ -1,0 +1,4 @@
+impor util
+cetak(util.dobel(21))
+cetak(util.koefisien)
+cetak(util.sambut("Sunda"))

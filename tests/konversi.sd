@@ -1,0 +1,5 @@
+cetak(angka("42") + 1)
+cetak(angka("3.5") * 2)
+cetak(kecap(12) + "!")
+cetak(kecap(bener))
+cetak(jenis(kecap(5)))

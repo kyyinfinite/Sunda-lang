@@ -1,0 +1,33 @@
+x = (1 +
+     2 +
+     3)
+cetak(x)
+cetak(1 +
+      2)
+cetak(
+    "a",
+    "b",
+    "c"
+)
+d = {
+    "ngaran": "Asep",
+    "umur": 18
+}
+cetak(d["ngaran"], d["umur"])
+l = [
+    1,
+    2,
+    3
+]
+cetak(l[2])
+pagawean Manyabar(
+    a,
+    b = 2
+) {
+    balikeun a + b
+}
+cetak(Manyabar(1), Manyabar(1, 5))
+cetak((1 + 2) * 3, 2 ** 3 ** 2, -2 ** 2)
+cetak("kutip \"dina\" kecap", "baris\\hiji")
+{ } 
+cetak("blok kosong sah")

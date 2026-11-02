@@ -1,0 +1,11 @@
+Asep 18
+{"ngaran": "Asep", "umur": 18, "kelas": "12A"}
+3
+["ngaran", "umur", "kelas"]
+["Asep", 18, "12A"]
+bener salah
+18
+salah
+kosong
+salah
+{"a": 1}

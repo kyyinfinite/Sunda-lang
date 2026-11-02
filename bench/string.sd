@@ -1,0 +1,5 @@
+s = ""
+pikeun i dina rentang(5000) {
+    s = s + "x"
+}
+cetak(panjang(s))
